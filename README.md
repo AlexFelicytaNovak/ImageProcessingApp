@@ -6,6 +6,7 @@ MacOS application, developed in **Swift** and **SwiftUI**, provides  graphical u
 - Dithering
 - Color quantization
 to the image.
+
 Users may load images, apply transformations, and save the results.
 All filter and transformation implementations are done using **pixel-by-pixel operations**.
 
