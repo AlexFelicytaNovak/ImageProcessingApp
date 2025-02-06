@@ -39,6 +39,9 @@ The application applies **ordered dithering** using adjustable threshold maps, w
 ### Color quantization algorithm
 The application uses **median cut**, which reduces the number of colours in an image to a value selected by the user while preserving the image’s overall appearance.
 
+## 🏗️ Application Architecture
+This application follows Model-View-ViewModel architecture, where Model is the Document which represents the loaded image. View is the SwiftUI ContentView which displays the UI, while ViewModel is the ContentViewModel responsible for performing actions in response to UI events such as filter function changes.
+
 ## 🔨 Installation 
 To install the project you need a Mac with **Xcode 14 or later** installed.
 1. Open `CGProject2.xcodeproj` in Xcode.
